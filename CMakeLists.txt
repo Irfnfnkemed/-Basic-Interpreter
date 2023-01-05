@@ -4,12 +4,12 @@ project(code)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(code
-        Basic/Basic.cpp
-        Basic/evalstate.cpp
-        Basic/exp.cpp
-        Basic/parser.cpp
-        Basic/program.cpp
-        Basic/statement.cpp
-        Basic/Utils/error.cpp Basic/Utils/error.hpp Basic/Utils/tokenScanner.cpp Basic/Utils/tokenScanner.hpp
-        Basic/Utils/strlib.cpp
+        Basic.cpp
+        evalstate.cpp
+        exp.cpp
+        parser.cpp
+        program.cpp
+        statement.cpp
+        error.cpp error.hpp tokenScanner.cpp tokenScanner.hpp
+        strlib.cpp
         )
