@@ -10,6 +10,6 @@ add_executable(code
         parser.cpp
         program.cpp
         statement.cpp
-        error.cpp error.hpp tokenScanner.cpp tokenScanner.hpp
-        strlib.cpp
+        Utils/error.cpp Utils/error.hpp Utils/tokenScanner.cpp Utils/tokenScanner.hpp
+        Utils/strlib.cpp
         )
